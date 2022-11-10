@@ -1,0 +1,164 @@
+.body {
+  color: #212121;
+  font-family: 'Roboto';
+
+}
+
+a {
+  text-decoration: none;
+
+}
+
+
+.logo {
+  color: #000000;
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+}
+
+.logo-web-word {
+  color: #2196F3;
+}
+
+.page-header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.nav-link {
+  color: #212121;
+}
+
+.contact-link {
+  color: #757575;
+
+}
+
+.hero-section {
+  background-color: #2F303A;
+}
+
+.hero-title {
+  color: #FFFFFF;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+}
+
+.hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.advances-tytles {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.advances-texts {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #757575;
+}
+
+.specialization-tytle,
+.team-tytle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.teammate-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.job-tytle {
+  color: #757575;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active,
+.contact-link:hover,
+.contact-link:focus,
+.contact-link:active,
+.address-link:hover,
+.address-link:focus,
+.address-link:active,
+.footer-contact-link:hover,
+.footer-contact-link:focus,
+.footer-contact-link:active {
+  color: #2196F3;
+}
+
+.hero-button:hover,
+.hero-button:focus,
+.hero-button:active,
+.portfolio-button:hover,
+.portfolio-button:focus,
+.portfolio-button:active {
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #2F303A;
+
+}
+
+.footer-logo {
+  color: #FFFFFF;
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+}
+
+.footer-contacts {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+
+}
+
+.address-link {
+  color: #FFFFFF;
+  font-style: normal;
+}
+
+.footer-contact-link {
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+}
+
+.portfolio-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.product-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  color: #212121;
+}
+
+.product-type {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #757575;
+}
