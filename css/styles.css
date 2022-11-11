@@ -1,70 +1,102 @@
-.body {
-  color: #212121;
-  font-family: 'Roboto';
-
+:root {
+  --main-color: #212121;
+  --second-color: #FFFFFF;
+  --third-color: #757575;
+  --black-logo-color: #000000;
+  --special-color: #2196F3;
+  --dark-background-color: #2F303A;
+  --footer-contact-color: rgba(255, 255, 255, 0.6);
+  --page-backbround-color: #F5F5F5;
+  --gray-background-color: #F5F4FA;
+  --activ-hero-button: #188CE8;
+}
+body {
+  color: var(--main-color);
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  background-color: var(--second-color);
 }
 
-a {
+.link {
   text-decoration: none;
-
 }
+
+.list {
+  list-style: none;
+}
+ 
 
 
 .logo {
-  color: #000000;
-  font-family: 'Raleway';
+  color: var(--black-logo-color);
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: (26 / 31);
 }
 
 .logo-web-word {
-  color: #2196F3;
+  color: var(--special-color);
 }
 
 .page-header {
   font-weight: 500;
-  font-size: 14px;
+  letter-spacing: 0.02em;
   line-height: 16px;
 }
 
 .nav-link {
-  color: #212121;
+  color: var(--main-color)
 }
 
+
+
 .contact-link {
-  color: #757575;
+  color: var(--third-color);
 
 }
 
 .hero-section {
-  background-color: #2F303A;
+  background-color: var(--dark-background-color);
+
 }
 
 .hero-title {
-  color: #FFFFFF;
+  color: var(--second-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
 }
 
 .hero-button {
+  color: var(--second-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
+  background-color: var(--special-color);
+  letter-spacing: 0.06em;
+  border: none;
+  cursor: pointer;
+}
+.hero-button:active,
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--activ-hero-button);
 }
 
 .advances-tytles {
   font-weight: 700;
-  font-size: 14px;
+ 
   line-height: 16px;
 }
 
 .advances-texts {
-  font-weight: 400;
-  font-size: 14px;
+  
   line-height: 24px;
-  color: #757575;
+  color: var(--third-color);
 }
 
 .specialization-tytle,
@@ -73,7 +105,9 @@ a {
   font-size: 36px;
   line-height: 42px;
 }
-
+.team-sectin {
+  background-color: var(--gray-background-color);
+}
 .teammate-name {
   font-weight: 500;
   font-size: 16px;
@@ -81,8 +115,8 @@ a {
 }
 
 .job-tytle {
-  color: #757575;
-  font-weight: 400;
+  color: var(--third-color);
+  
   font-size: 16px;
   line-height: 19px;
 }
@@ -90,56 +124,37 @@ a {
 
 .nav-link:hover,
 .nav-link:focus,
-.nav-link:active,
-.contact-link:hover,
-.contact-link:focus,
-.contact-link:active,
-.address-link:hover,
-.address-link:focus,
-.address-link:active,
-.footer-contact-link:hover,
-.footer-contact-link:focus,
-.footer-contact-link:active {
-  color: #2196F3;
-}
+.nav-link:active {
+  color: var(--special-color);
+  }
 
-.hero-button:hover,
-.hero-button:focus,
-.hero-button:active,
-.portfolio-button:hover,
-.portfolio-button:focus,
-.portfolio-button:active {
-  color: #FFFFFF;
-  cursor: pointer;
-}
 
 .footer {
-  background-color: #2F303A;
+  background-color: var(--dark-background-color);
 
 }
 
 .footer-logo {
-  color: #FFFFFF;
-  font-family: 'Raleway';
+  color: var(--second-color);
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
 }
 
 .footer-contacts {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 16px;
+  
+  line-height: 24px;
 
 }
 
 .address-link {
-  color: #FFFFFF;
+  color: var(--second-color);
   font-style: normal;
 }
 
 .footer-contact-link {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--footer-contact-color);
   font-style: normal;
 }
 
@@ -147,18 +162,27 @@ a {
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
+  background-color: var(--gray-background-color);
+  border: none;
+  cursor: pointer;
 }
-
+.portfolio-button:hover,
+.portfolio-button:focus,
+.portfolio-button:active {
+  color: var(--second-color);
+  background-color: var(--special-color);
+}
 .product-name {
   font-weight: 700;
   font-size: 18px;
   line-height: 36px;
-  color: #212121;
+  color: var(--main-color);
+  letter-spacing: 0.06em;
 }
 
 .product-type {
-  font-weight: 400;
+  
   font-size: 16px;
   line-height: 30px;
-  color: #757575;
+  color: var(--third-color);
 }
