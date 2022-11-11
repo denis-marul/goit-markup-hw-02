@@ -10,6 +10,9 @@
   --gray-background-color: #F5F4FA;
   --activ-hero-button: #188CE8;
 }
+
+
+
 body {
   color: var(--main-color);
   font-family: 'Roboto', sans-serif;
@@ -33,7 +36,7 @@ body {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: (26 / 31);
+  line-height: 1.19;
 }
 
 .logo-web-word {
@@ -43,12 +46,13 @@ body {
 .page-header {
   font-weight: 500;
   letter-spacing: 0.02em;
-  line-height: 16px;
+  line-height: 1.14;
 }
 
 .nav-link {
   color: var(--main-color)
 }
+
 
 
 
@@ -66,7 +70,7 @@ body {
   color: var(--second-color);
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
   text-transform: uppercase;
   letter-spacing: 0.06em;
 }
@@ -75,7 +79,7 @@ body {
   color: var(--second-color);
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.88;
   background-color: var(--special-color);
   letter-spacing: 0.06em;
   border: none;
@@ -89,13 +93,11 @@ body {
 
 .advances-tytles {
   font-weight: 700;
- 
-  line-height: 16px;
+  line-height: 1.14;
 }
 
 .advances-texts {
-  
-  line-height: 24px;
+  line-height: 1.71;
   color: var(--third-color);
 }
 
@@ -103,7 +105,7 @@ body {
 .team-tytle {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.17;
 }
 .team-sectin {
   background-color: var(--gray-background-color);
@@ -111,24 +113,34 @@ body {
 .teammate-name {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.19;
 }
 
 .job-tytle {
   color: var(--third-color);
-  
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.19;
 }
 
 
 .nav-link:hover,
 .nav-link:focus,
-.nav-link:active {
+.nav-link:active,
+.contact-link:hover,
+.contact-link:focus,
+.contact-link:active,
+.address-link:hover,
+.address-link:focus,
+.address-link:active,
+.footer-contact-link:hover,
+.footer-contact-link:focus,
+.footer-contact-link:active {
   color: var(--special-color);
   }
 
-
+.nav-link.current {
+  color: var(--special-color);
+}
 .footer {
   background-color: var(--dark-background-color);
 
@@ -139,12 +151,12 @@ body {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
 }
 
 .footer-contacts {
   
-  line-height: 24px;
+  line-height: 1.71;
 
 }
 
@@ -161,7 +173,7 @@ body {
 .portfolio-button {
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.63;
   background-color: var(--gray-background-color);
   border: none;
   cursor: pointer;
@@ -175,14 +187,13 @@ body {
 .product-name {
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   color: var(--main-color);
   letter-spacing: 0.06em;
 }
 
 .product-type {
-  
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.88;
   color: var(--third-color);
 }
