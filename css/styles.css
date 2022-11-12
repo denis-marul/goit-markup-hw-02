@@ -28,7 +28,7 @@ body {
 .list {
   list-style: none;
 }
- 
+
 
 
 .logo {
@@ -50,7 +50,8 @@ body {
 }
 
 .nav-link {
-  color: var(--main-color)
+  color: var(--main-color);
+  line-height: 1.5;
 }
 
 
@@ -58,6 +59,7 @@ body {
 
 .contact-link {
   color: var(--third-color);
+  line-height: 1.5;
 
 }
 
@@ -76,6 +78,7 @@ body {
 }
 
 .hero-button {
+  font-family: 'Roboto', sans-serif;
   color: var(--second-color);
   font-weight: 700;
   font-size: 16px;
@@ -85,6 +88,7 @@ body {
   border: none;
   cursor: pointer;
 }
+
 .hero-button:active,
 .hero-button:hover,
 .hero-button:focus {
@@ -92,6 +96,7 @@ body {
 }
 
 .advances-tytles {
+  font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
 }
@@ -107,9 +112,11 @@ body {
   font-size: 36px;
   line-height: 1.17;
 }
+
 .team-sectin {
   background-color: var(--gray-background-color);
 }
+
 .teammate-name {
   font-weight: 500;
   font-size: 16px;
@@ -136,11 +143,12 @@ body {
 .footer-contact-link:focus,
 .footer-contact-link:active {
   color: var(--special-color);
-  }
+}
 
 .nav-link.current {
   color: var(--special-color);
 }
+
 .footer {
   background-color: var(--dark-background-color);
 
@@ -155,8 +163,7 @@ body {
 }
 
 .footer-contacts {
-  
-  line-height: 1.71;
+  line-height: 1.5;
 
 }
 
@@ -171,6 +178,7 @@ body {
 }
 
 .portfolio-button {
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
@@ -178,12 +186,14 @@ body {
   border: none;
   cursor: pointer;
 }
+
 .portfolio-button:hover,
 .portfolio-button:focus,
 .portfolio-button:active {
   color: var(--second-color);
   background-color: var(--special-color);
 }
+
 .product-name {
   font-weight: 700;
   font-size: 18px;
