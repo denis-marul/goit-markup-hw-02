@@ -74,7 +74,6 @@ body {
 }
 
 .hero-button {
-  font-family: inherit;
   color: var(--second-color);
   font-weight: 700;
   font-size: 16px;
